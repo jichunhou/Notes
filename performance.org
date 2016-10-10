@@ -1,0 +1,16 @@
+* FPS, 10ms
+** Rendering
+*** Scene 2ms
+*** Character 3ms
+** Animation 1.5ms
+** Physics 2ms
+** Scripts 1.5ms
+* Quality Setting
+** Forward rendering pixel light count(?
+** Keep materials count low
+** Rendering order?
+* Physics
+** SolveIterationCount
+** fixedDeltaTime
+** NVidia's AgPerMon
+* Occlusion Clulling
