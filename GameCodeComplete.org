@@ -1,4 +1,4 @@
-* layers
+* chapeter 1, layers
 ** application layer
 *** reading input & translate
 *** file system & resource caching
@@ -17,6 +17,26 @@
 *** state & data structure
 *** physics & collision
 *** events
-*** process manager(component
-** game view layer
-*** player monitor, AI, replay system, remote player view
+*** process manager(component)
+    dependency
+*** command interpreter
+** game view
+*** game view for human player
+**** graphics display
+     your artists need to know what your engine can do.
+     estabilish CPU budgets
+**** audio
+     sound effects, music, speech
+**** user interface
+**** process manager
+**** options
+*** game view for AI
+** networked game architecture
+*** remote game view
+*** remote game logic
+* chapter 2, architectural principle
+** keep class hierarchies as flat as possible
+** encapsulate system that are most likely to change
+** use interface
+** use factory
+**
