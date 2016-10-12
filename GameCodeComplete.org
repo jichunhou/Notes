@@ -1,4 +1,4 @@
-* chapeter 1, layers
+* chapeter 2, layers
 ** application layer
 *** reading input & translate
 *** file system & resource caching
@@ -34,9 +34,16 @@
 ** networked game architecture
 *** remote game view
 *** remote game logic
-* chapter 2, architectural principle
+* chapter 3, architectural principle
 ** keep class hierarchies as flat as possible
 ** encapsulate system that are most likely to change
 ** use interface
 ** use factory
+**
+* chapter 4, build your game
+** build your game every night
+** automatic your build
+** create a bullte-proof directory structure
+** braches: trunk(master), sandbox, gold
+* chapter 5, initialization & shutdown
 **
