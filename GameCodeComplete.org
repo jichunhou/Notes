@@ -46,4 +46,17 @@
 ** create a bullte-proof directory structure
 ** braches: trunk(master), sandbox, gold
 * chapter 5, initialization & shutdown
-**
+** dot use C++/C# constructor for initialization
+** initialize string system early
+** relaese systems in the reverse order in initalization
+** application layer, contains pointers of
+*** string system
+*** game logic
+*** game option
+*** resource manager
+*** event manager
+*** network manager
+* chapter 6, game actors and component architecture
+** component system instead of inheritance
+** maintain the actor and component's lifetime manually
+** share data between components with [direct get]/[event]?
