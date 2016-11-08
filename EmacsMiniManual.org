@@ -1,1 +1,39 @@
-*
+* help system
+** C-h m, describe-mode
+** C-h w [command], where-is
+** C-h c [key], describe-key-briefly
+** C-h k [key], describe-key
+** C-h e, view-echo-area-messages
+** C-h v [variable], describe-variable
+** C-h C-h, help-for-help
+** [prefix] C-h, help-for-prefix
+* info
+** M-x info
+** M-x info-emacs-manual
+* man
+** M-x man
+** M-x woman
+* iBuffer mode
+** /m, filter by major mode
+** //, remove previous filter
+** /g, give a name to the group
+** /\, remove all active filter groups
+** q, quit
+** sorting
+*** ,, rotate between sorting modes
+*** s i, reverse order
+*** s a, sorting by alphabet
+*** s m, sorting by major mode
+* navigating pairs
+** C-M-f, forward-sexp
+** C-M-b, backward-sexp
+** C-M-k, kill-sexp
+** C-M-t, transpose-sexps
+** C-M-@, mark-sexp
+* basic editing commands
+** C-S-DEL, kill entire line
+** M-\, kill all spaces
+** M-SPC, kill all spaces except one
+** M-k, kill a sentence
+** M-;, comment code
+** C-x C-x, exchange-point-and-mark,
